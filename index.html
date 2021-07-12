@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+    
+
+</head>
+<body>
+    <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <span class="text-primary">Rivas™</span>
+            </a>
+            <button type="button" class="navbar-toggler " 
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link active" aria-current="page">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#equipo" class="nav-link">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- slider-->
+        <div id="carouselExampleControls" class="carousel slide"
+        data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="img/slide1.png" class="d-block w-100" alt="slide1">
+                </div>
+
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/slide2.png" alt="slide2" class="d-block w-100">
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/slide3.png" alt="slide3" class="d-block w-100">
+                </div>
+            </div> 
+            <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" 
+            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--inicio    -->
+        <section class="w-75 mx-auto text-center pt-5" id="inicio">
+            <h1 class="p-3 fs-2 border-top border-3">Inicio</h1>
+            <p class="p-3 fs-4">Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Quisquam, dolore harum possimus 
+                vitae mollitia quod officiis asperiores iure autem
+                eaque fugit necessitatibus, dicta obcaecati numquam
+                voluptatibus et quasi sed! Repellendus. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut sequi inventore veniam corrupti tempora vitae qui sit
+                modi eligendi quas praesentium totam, possimus nobis
+                animi. Iure minus velit nam quaerat.
+            </p>
+        </section>
+                <!--equipo    -->
+        <section class="container-fluid" id="equipo">
+            <div class="row mx-auto w-75 my-5 fila">
+                <div class="col-sm-12 col-md-12 col-lg-6
+                d-flex my-5 icono-wrap">
+                    <img src="img/html.png" width="180" height="160" alt="">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">HTML</h3>
+                        <p class="px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus eum tempora vero modi, vel ut et exercitationem ipsum ipsa nihil rem, sunt eos ratione cupiditate quas, minima repellat necessitatibus accusamus!</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6
+                d-flex my-5 icono-wrap">
+                    <img src="img/css.jpg" width="180" height="160" alt="">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">CSS</h3>
+                        <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro harum, unde, accusamus soluta quia et magnam molestias enim aperiam est dolores assumenda natus qui maiores. Nesciunt a ipsum facilis?</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6
+                d-flex my-5 icono-wrap">
+                    <img src="img/js.png" width="180" height="160" alt="">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">JavaScript</h3>
+                        <p class="px-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, tenetur eligendi delectus enim veniam consectetur repudiandae fugit dolorem quisquam aperiam explicabo neque, magnam error asperiores? Ab enim magnam non molestias?</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6
+                d-flex  my-5 icono-wrap">
+                    <img src="img/bootstrap.jpg" alt="" width="180" height="160">
+                    <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">Bootstrap</h3>
+                        <p class="px-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia expedita, aliquid pariatur, facilis ullam sed, hic doloribus corporis alias minus labore? Aspernatur nemo minus eligendi iste delectus quas aliquam at!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="w-75 m-auto text-center" id="equipo">
+                <h1 class="mb-5 fs-2" id="servicios">Servicios</h1>
+                <p class="fs-4">Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Cum, deserunt. 
+                    Est nesciunt eveniet assumenda, 
+                    delectus consectetur cupiditate provident at
+                    libero deleniti dolore quae soluta nisi autem 
+                    quos. Accusantium, alias neque! Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Voluptate ratione nulla facilis 
+                    eius molestias vitae iure illo voluptatum ad repellat, 
+                    fuga quo magnam, ex natus saepe. Sint magni reiciendis velit?</p>
+            </div>
+            <div class="mt-5 mb-2 text-center">
+                <img class="img-fluid" src="img/sectionimg.jpeg" alt="">
+            </div>
+        </section>
+        <footer class="w-100 d-flex align-items-center justify-content-center
+        flex-wrap">
+            <p class="fs-5 px-3 pt-3">Carlos Rivas &copy; Todos los Derechos Reservados 2021</p>
+            <div id="iconos">
+                <a href="https://es-la.facebook.com/infourbe/"><i class="bi bi-facebook"></i></a> 
+                <a href="https://www.instagram.com/carlos.drf/"><i class="bi bi-instagram"></i></a>
+                
+            </div>
+        </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#menu li a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 32rem;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+@media(max-width:760px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/*extra small*/
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        display: block !important;
+    }
+   
+}
